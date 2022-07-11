@@ -5,10 +5,19 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+}
+
+.hh-text{
+  color: white;
+  transition: 1s;
+}
+
+.hh-text:hover{
+  color: rgb(255, 252, 188);
 }
 
 /* Mis trabajos */
